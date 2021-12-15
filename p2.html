@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survery Form</title>
+    <link rel="stylesheet" href="p2_style.css">
+</head>
+<body>
+    <h1 id="title">PC builder survey form</h1>
+    <p id="description">Thank you for letting us be of service to you, please fill this short survery form rating us and letting us know if you think we can make any improvements</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label" class="big-labels">Name:</label>
+        <br>
+        <input type="name" id="name" placeholder="Jack" class="fillers" required>
+        <br>
+        <label for="email" id="email-label" class="big-labels">Email:</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="name@email.com" class="fillers">
+        <br>
+        <label for="number" id="number-label" class="big-labels">Number:</label>
+        <br>
+        <input type="number" name="number" id="number" min="1000" max="100000" placeholder="404 lol" class="fillers">
+        <br>
+        <label for="dropdown" class="big-labels">Was any component suggestion bad?</label>
+        <br>
+        <select name="dropdown" id="dropdown" class="fillers">
+            <option value="" selected>Choose</option>
+            <option value="cpu">CPU</option>
+            <option value="gpu">Graphics card</option>
+            <option value="ssd">Solid state drive</option>
+            <option value="hdd">Hard disk</option>
+            <option value="psu">Power supply</option>
+            <option value="none">none</option>
+        </select>
+        <p class="big-labels">How would you rate your experience:</p>
+        <input type="radio" name="satisfaction" id="great" value="great">
+        <label for="great" class="rd-labels">great</label>
+        <br>
+        <input type="radio" name="satisfaction" id="good" value="good">
+        <label for="good" class="rd-labels">good</label>
+        <br>
+        <input type="radio" name="satisfaction" id="okay" value="okay">
+        <label for="okay" class="rd-labels">okay</label>
+        <br>
+        <input type="radio" name="satisfaction" id="bad" value="bad">
+        <label for="bad" class="rd-labels">bad</label>
+        <br>
+        <input type="radio" name="satisfaction" id="terrible" value="terrible">
+        <label for="terrible" class="rd-labels">terrible</label>
+        <br>
+        <p class="big-labels">What would you like to see us improve:</p>
+        <input type="checkbox" name="improvements" id="webpage" value="webpage">
+        <label for="webpage" class="rd-labels">Webpage accessibility</label>
+        <br>
+        <input type="checkbox" name="improvements" id="payment" value="payment">
+        <label for="payment" class="rd-labels">Payment options</label>
+        <br>
+        <input type="checkbox" name="improvements" id="customer" value="customer-care">
+        <label for="customer" class="rd-labels">Customer care </label>
+        <br>
+        <input type="checkbox" name="improvements" id="delivery" value="delivery">
+        <label for="delivery" class="rd-labels">Delivery time</label>
+        <br>
+        <label for="comments" class="big-labels">Please enter your comments and suggestions here:</label>
+        <br>
+        <textarea name="comments" id="comments" placeholder="Share suggestions and/or comments here" cols="30" rows="10" class="fillers"></textarea>
+        <br>
+        <button id="submit">Submit</button>
+        <input type="reset" value="Reset" id="reset"> 
+    </form>
+</body>
+</html>
