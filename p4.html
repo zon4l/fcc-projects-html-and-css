@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="p4_style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul class="nav-container">
+            <li>
+                <header>
+                    <h1>Python Basics Documentation</h1>
+                </header>
+            </li>
+            <li>
+                <a href="#Introduction" class="nav-link">Introduction</a>
+            </li>
+            <li>
+                <a href="#Why_Python" class="nav-link">Why Python</a>
+            </li>
+            <li>
+                <a href="#Python_Quickstart" class="nav-link">Python Quickstart</a>
+            </li>
+            <li>
+                <a href="#Hello_World" class="nav-link">Hello World</a>
+            </li>
+            <li>
+                <a href="#Indentation" class="nav-link">Indentation</a>
+            </li>
+            <li>
+                <a href="#Variables" class="nav-link">Variables</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>
+                <h1>Introduction</h1>
+            </header>
+            <p>Python is a popular high level programming language. It was created by Guido van Rossum, and released in 1991.</p>
+            <p>It is used for:</p>
+            <ul>
+                <li>web development (server-side)</li>
+                <li>software development</li>
+                <li>mathematics</li>
+                <li>system scripting</li>
+            </ul>
+            <p>and much more</p>
+        </section>
+        <section class="main-section" id="Why_Python">
+            <header>
+                <h1>Why Python</h1>
+            </header>
+            <ul>
+                <li>Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc)</li>
+                <li>Python has a simple syntax similar to the English language</li>
+                <li>Python has syntax that allows developers to write programs with fewer lines than some other programming languages</li>
+                <li>Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that
+                prototyping can be very quick</li>
+                <li>Python can be treated in a procedural way, an object-oriented way or a functional way</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Python_Quickstart">
+            <header>
+                <h1>Python Quickstart</h1>
+            </header>
+            <p>The way to run a python file is like this on the command line:</p>
+            <div class="code-block">
+            <code>C:\Users\Your Name>python helloworld.py</code>
+            </div>
+            <p>Where "helloworld.py" is the name of your python file.</p>
+        </section>
+        <section class="main-section" id="Hello_World">
+            <header>
+                <h1>Hello World</h1>
+            </header>
+            <p>Let's write our first Python file, called helloworld.py, which can be done in any text editor.</p>
+            <div class="code-block"><code>print("Hello, World!")</code></div>
+        </section>
+        <section class="main-section" id="Indentation">
+            <header>
+                <h1>Indentation</h1>
+            </header>
+            <p>Indentation refers to the spaces at the beginning of a code line.</p>
+            <p>Where in other programming languages the indentation in code is for readability only, the indentation in Python is very
+            important.</p>
+            <p>
+                Python uses indentation to indicate a block of code.
+            </p>
+            <p>Example:</p>
+            <div class="code-block">
+                <code>
+                    <pre>
+if 5 > 2:
+    print("Five is greater than two!")
+                    </pre>
+                </code>
+            </div>
+            <p>Python will give you an error if you skip the indentation.</p>
+            <p>Example:</p>
+            <div class="wrong-code-block">
+                <code>
+                    <pre>
+if 5 > 2:
+print("Five is greater than two!")
+                    </pre>
+                </code>
+            </div>
+        </section>
+        <section class="main-section" id="Variables">
+            <header>
+                <h1>Variables</h1>
+            </header>
+            <p>In Python, variables are created when you assign a value to it:</p>
+            <p>Example:</p>
+            <div class="code-block">
+                <code>
+                    <pre>
+x = 5
+y = "Hello, World!"
+                    </pre>
+                </code>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
